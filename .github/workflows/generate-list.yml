@@ -29,6 +29,11 @@ jobs:
         uses: actions/checkout@v4
         with:
             submodules: true
+      - name: Checkout lists
+        uses: actions/checkout@v4
+        with:
+            repository: citizenlab/test-lists
+            path: test-lists
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
