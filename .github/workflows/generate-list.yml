@@ -37,6 +37,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install dependencies
+        run: pip install -r requirements.txt
       - name: Build list
         run: ipython convert.ipy
       - name: Upload artifact
