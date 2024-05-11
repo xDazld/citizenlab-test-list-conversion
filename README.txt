@@ -1,0 +1,1 @@
+Script to make a whitelist for AdGuard Home to prevent OONI false positives.
